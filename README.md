@@ -1,6 +1,6 @@
 # [sorting-js](https://github.com/neeleshroy/sorting-js)
 
-[![Build Status](http://img.shields.io/travis/neeleshroy/sorting-js/master.svg?style=flat-square)](https://travis-ci.org/neeleshroy/sorting-js)
+[![Build Status](https://travis-ci.org/NeeleshRoy/sorting-js.svg?branch=develop)](https://travis-ci.org/NeeleshRoy/sorting-js)
 [![Coverage Status](https://img.shields.io/coveralls/neeleshroy/sorting-js.svg?style=flat-square)](https://coveralls.io/neeleshroy/sorting-js)
 [![Dependency Status](http://img.shields.io/david/neeleshroy/sorting-js.svg?style=flat-square)](https://david-dm.org/neeleshroy/sorting-js)
 
