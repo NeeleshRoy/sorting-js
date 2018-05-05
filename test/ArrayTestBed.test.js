@@ -32,16 +32,42 @@ describe('ArrayTestBed', () => {
 
     it('Should not make any change in datastore', () => {
       const test = new ArrayTestBed(0);
-      test.setRandomData();
+      test.setData();
 
       expect(test.dataStore).to.eql([]);
     });
 
-    it('Should set random data in datastore', () => {
-      const test = new ArrayTestBed(1000);
-      test.setRandomData();
+    it('Should set random unique data in datastore', () => {
+      const test = new ArrayTestBed(10);
+      test.setData();
 
-      expect(test.dataStore.length).to.eql(1000);
+      expect(test.dataStore.length).to.eql(10);
+    });
+
+    it('Should set random data in datastore', () => {
+      const test = new ArrayTestBed(10);
+      test.setData(false);
+      console.log(test.dataStore);
+      expect(test.dataStore.length).to.eql(10);
+    });
+
+  });
+
+  describe('ArrayTestBed - getNumbers()', () => {
+
+    it('Should return and empty array', () => {
+      const test = new ArrayTestBed(0);
+      const out = test.getData();
+
+      expect(out).to.eql([]);
+    });
+
+    it('Should get the random data from the datastore', () => {
+      const test = new ArrayTestBed(10);
+      test.setData();
+      const out = test.getData();
+      
+      expect(out.length).to.eql(10);
     });
 
   });
