@@ -1,7 +1,7 @@
 # [sorting-js](https://github.com/neeleshroy/sorting-js)
 
 [![Build Status](https://travis-ci.org/NeeleshRoy/sorting-js.svg?branch=develop)](https://travis-ci.org/NeeleshRoy/sorting-js)
-[![Coverage Status](https://img.shields.io/coveralls/neeleshroy/sorting-js.svg?style=flat-square)](https://coveralls.io/neeleshroy/sorting-js)
+[![Coverage Status](https://coveralls.io/repos/github/NeeleshRoy/sorting-js/badge.svg)](https://coveralls.io/github/NeeleshRoy/sorting-js)
 [![Dependency Status](http://img.shields.io/david/neeleshroy/sorting-js.svg?style=flat-square)](https://david-dm.org/neeleshroy/sorting-js)
 
 > Sorting algorithms implemented in JS
