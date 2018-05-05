@@ -1,5 +1,5 @@
 /**
- * sorting-js
+ * ldfs
  *
  * Copyright © 2016 Neelesh Roy. All rights reserved.
  *
@@ -29,9 +29,7 @@ for (const format of ['es6', 'cjs', 'umd']) {
       babelrc: false,
       exclude: 'node_modules/**',
       runtimeHelpers: true,
-      "presets": [
-        ["es2015", { "modules": false }]
-      ]
+      presets: pkg.babel.presets.map(x => (x === 'es2015' ? 'es2015-rollup' : x)),
     }))],
   }).then(bundle => bundle.write({
     dest: `dist/${format === 'cjs' ? 'index' : `index.${format}`}.js`,
