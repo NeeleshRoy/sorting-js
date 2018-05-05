@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/NeeleshRoy/sorting-js.svg?branch=develop)](https://travis-ci.org/NeeleshRoy/sorting-js)
 [![Coverage Status](https://coveralls.io/repos/github/NeeleshRoy/sorting-js/badge.svg)](https://coveralls.io/github/NeeleshRoy/sorting-js)
-[![Dependency Status](http://img.shields.io/david/neeleshroy/sorting-js.svg?style=flat-square)](https://david-dm.org/neeleshroy/sorting-js)
+[![dependencies Status](https://david-dm.org/neeleshroy/sorting-js/status.svg?style=flat-square)](https://david-dm.org/neeleshroy/sorting-js)
 
 > Sorting algorithms implemented in JS
 
