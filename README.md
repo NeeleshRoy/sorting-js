@@ -1,9 +1,9 @@
 # [sorting-js](https://github.com/neeleshroy/sorting-js)
 
-[![npm version](https://badge.fury.io/js/sorting-javascript.svg)](https://badge.fury.io/js/sorting-javascript)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+[![npm version](https://badge.fury.io/js/sorting-javascript.svg?style=flat-square)](https://badge.fury.io/js/sorting-javascript)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://lbesson.mit-license.org/)
 [![Build Status](https://travis-ci.org/NeeleshRoy/sorting-js.svg?branch=develop)](https://travis-ci.org/NeeleshRoy/sorting-js)
-[![Coverage Status](https://coveralls.io/repos/github/NeeleshRoy/sorting-js/badge.svg)](https://coveralls.io/github/NeeleshRoy/sorting-js)
+[![Coverage Status](https://coveralls.io/repos/github/NeeleshRoy/sorting-js/badge.svg?style=flat-square)](https://coveralls.io/github/NeeleshRoy/sorting-js)
 [![dependencies Status](https://david-dm.org/neeleshroy/sorting-js/status.svg?style=flat-square)](https://david-dm.org/neeleshroy/sorting-js)
 
 > Sorting algorithms implemented in JS
