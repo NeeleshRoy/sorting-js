@@ -1,4 +1,4 @@
-import { ArrayTestBed } from './utils/ArrayTestBed';
-import bubbleSort from './bubble-sort';
+import { ArrayTestBed } from './src/utils/ArrayTestBed';
+import bubbleSort from './src/bubble-sort';
 
 export default { ArrayTestBed, bubbleSort };
