@@ -1,7 +1,6 @@
 {
-  "private": true,
-  "name": "sorting-js",
-  "version": "0.0.0",
+  "name": "sorting-javascript",
+  "version": "0.0.2",
   "description": "Sorting algorithms implemented in JS",
   "repository": "neeleshroy/sorting-js",
   "author": "Neelesh Roy",

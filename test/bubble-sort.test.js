@@ -8,7 +8,7 @@
  */
 
 import { expect } from 'chai';
-import bubbleSort from '../src/bubble-sort';
+import { bubbleSort } from '../src/bubble-sort';
 
 describe('Bubble Sort', () => {
 

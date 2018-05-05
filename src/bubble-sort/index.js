@@ -1,6 +1,6 @@
 import swap from '../utils/swap';
 
-export default function (unsorted, type = 'a') {
+export function bubbleSort(unsorted, type = 'a') {
   if (unsorted.length === 0) return unsorted;
   const r = unsorted;
   let p = r.length;
