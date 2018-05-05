@@ -1,5 +1,8 @@
 # [sorting-js](https://github.com/neeleshroy/sorting-js)
 
+
+![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![Build Status](https://travis-ci.org/NeeleshRoy/sorting-js.svg?branch=develop)](https://travis-ci.org/NeeleshRoy/sorting-js)
 [![Coverage Status](https://coveralls.io/repos/github/NeeleshRoy/sorting-js/badge.svg)](https://coveralls.io/github/NeeleshRoy/sorting-js)
 [![dependencies Status](https://david-dm.org/neeleshroy/sorting-js/status.svg?style=flat-square)](https://david-dm.org/neeleshroy/sorting-js)
@@ -14,7 +17,6 @@ $ npm install sorting-js
 
 ### Getting Started
 
-...
 
 ### How to Test
 
