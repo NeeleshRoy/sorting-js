@@ -1,4 +1,4 @@
-export function insertionSort(arr) {
+export default function (arr) {
   const unsorted = arr;
 
   for (let i = 1; i < unsorted.length; i++) {
