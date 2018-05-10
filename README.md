@@ -5,6 +5,7 @@
 [![Build Status](https://travis-ci.org/NeeleshRoy/sorting-js.svg?branch=develop)](https://travis-ci.org/NeeleshRoy/sorting-js)
 [![Coverage Status](https://coveralls.io/repos/github/NeeleshRoy/sorting-js/badge.svg?style=flat-square)](https://coveralls.io/github/NeeleshRoy/sorting-js)
 [![dependencies Status](https://david-dm.org/neeleshroy/sorting-js/status.svg?style=flat-square)](https://david-dm.org/neeleshroy/sorting-js)
+[![NPM](https://nodei.co/npm/sorting-javascript.png)](https://nodei.co/npm/sorting-javascript/)
 
 > Sorting algorithms implemented in JS
 
