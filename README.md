@@ -16,7 +16,33 @@ $ npm install sorting-javascript
 
 ### Getting Started
 
+ES6 - Use named imports
+```javascript
+  import { insertionSort } from 'sorting-javascript'
+  insertionSort([7, 2, 5]) // Output - [2, 5, 7]
+```
 
+Node.JS require
+```javascript
+  var sort = require('sorting-javascript')
+  sort.insertionSort([7, 2, 5]) // Output - [2, 5, 7]
+```
+
+There is an extra utility function called ArrayTestBed which generates random numbers
+to test the sorting algorithms.
+```javascript
+  import { ArrayTestBed } from 'sorting-javascript'
+  const test = new ArrayTestBed(1000);
+  test.setData() // test variable will have 1000 randomly generated numbers between 0-1000
+```
+By default, it will contain unique elements. If you pass random = false to the setData function, then the result will contain duplicates.
+eg:
+```javascript
+  test.setData(false) // [5, 6, 6, 8, 3, 2, 2]
+  test.setData() // [1, 7, 6, 8, 3, 2, 5]
+```
+
+## For Geeks :P
 ### How to Test
 
 Run one, or a combination of the following commands to lint and test your code:
