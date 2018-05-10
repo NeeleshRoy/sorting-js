@@ -8,7 +8,7 @@
  */
 
 import { expect } from 'chai';
-import { selectionSort } from '../src/selection-sort';
+import selectionSort from '../src/selection-sort';
 
 describe('Selection Sort', () => {
 

@@ -1,4 +1,11 @@
 import { ArrayTestBed } from './utils/ArrayTestBed';
-import { bubbleSort } from './bubble-sort';
+import bubbleSort from './bubble-sort/index';
+import insertionSort from './insertion-sort/index';
+import selectionSort from './selection-sort/index';
 
-export default { ArrayTestBed, bubbleSort };
+module.exports = {
+  ArrayTestBed,
+  bubbleSort,
+  insertionSort,
+  selectionSort,
+};

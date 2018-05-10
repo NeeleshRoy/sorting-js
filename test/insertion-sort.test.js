@@ -8,7 +8,7 @@
  */
 
 import { expect } from 'chai';
-import { insertionSort } from '../src/insertion-sort';
+import insertionSort from '../src/insertion-sort';
 
 describe('Insertion Sort', () => {
 

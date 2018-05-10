@@ -1,6 +1,6 @@
 import { getMin, getMax } from '../utils/maxMin';
 
-export function selectionSort(unsorted, type = 'a') {
+export default function (unsorted, type = 'a') {
   if (unsorted.length === 0) return unsorted;
   const arr = unsorted;
   const sorted = [];
