@@ -1,6 +1,6 @@
 {
   "name": "sorting-javascript",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sorting algorithms implemented in JS",
   "repository": "neeleshroy/sorting-js",
   "author": "Neelesh Roy",
@@ -57,6 +57,7 @@
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "build": "node tools/build",
     "prepublish": "npm run build",
+    "publish": "npm run build && npm publish dist",
     "publish:docs": "easystatic deploy docs --repo neeleshroy/sorting-js",
     "start": "easystatic start docs"
   }
