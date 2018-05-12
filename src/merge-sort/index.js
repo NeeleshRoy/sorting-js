@@ -1,6 +1,6 @@
 function stitch(left, right) {
   const results = [];
-  if (left.length && right.length) {
+  while (left.length && right.length) {
     if (left[0] < right[0]) {
       results.push(left.shift());
     } else {
