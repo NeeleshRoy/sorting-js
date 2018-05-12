@@ -38,5 +38,13 @@ describe('Merge Sort', () => {
 
       expect(out).to.eql(['aaa', 'awb', 'ayda', 'cdf', 'xsy']);
     });
+
+    it('should sort the floats elements', () => {
+      const test = [1.23, 9.78, 5.34, 3.45, 3.44];
+
+      const out = mergeSort(test);
+
+      expect(out).to.eql([1.23, 3.44, 3.45, 5.34, 9.78]);
+    });
   });
 });
