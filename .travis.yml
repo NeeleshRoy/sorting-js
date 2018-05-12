@@ -1,10 +1,19 @@
 sudo: false
 language: node_js
 node_js:
-  - '5'
-  - '4'
+- '5'
+- '4'
 script:
-  - npm run lint
-  - npm run test:cover
+- npm run lint
+- npm run test:cover
 after_success:
-  - npm run coveralls
+- npm run coveralls
+deploy:
+  provider: npm
+  email: neeleshroy.2013@gmail.com
+  api_key:
+    secure: iqtJtG9KQGg5rKi6GlvXyDLcIMcs0PhmDaGPncOQwl3sWkCqSoD1Xr503Hv1y46UmEwl/urG/famkOqmeB+6CVpeVh5szvpWHAip+/opsx0IZ63zuLGsV7dVonsK/Fcj1eXSoHWR5jD/x5EZHDwU1JuiLTFYp5Y0idcN0gWA7CbWEhdOJjSwgJnioNftE4o4V/F+mXlPBgCuc/8P2Dcr0C36C7o4ONVAtGf3XoFH+iHiLrelyzYYzcjpJuNRhtQqqqmh+G1WN/TY2IvsoiGZQ7EGdU8wETbxfffGDt28jzhUgBGT587q8pey6wvD83TZAddfYiQndD+FX41vE5DlGgyzTFJj0QP2V001QttpmmTKCYwgwImcV5RxVlU0PuplM0s+ocxcOBMMUcn1IJc607tyo4dOuOHvjw8idIW9NZj5SCqIOfwny/EVnvGy+KYayxcN5KDX+2VWNZCbZRJoiW+bMMpukQbuluyGsIwj8nO/VL5SwYd3tpBnTcO7rAuuDXhPmQ1Fo6RpMILa/TqoHFqro5YHEudaPQJfjdcydfYvBuSmNxWWyX9nUm+ugTMON/vbULeu2opTgYK61w1TPwEb7txhg3NzvU5un+tIgA1UVF5NV0gOxdEabkI4a2aJAn2wzLIAWOW8S0Bk1nLEGKi9Lv0SEqvBmeJ4/rrrxC4=
+  on:
+    tags: true
+    repo: NeeleshRoy/sorting-js
+    branch: develop
