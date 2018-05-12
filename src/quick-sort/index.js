@@ -1,11 +1,11 @@
-const quickSort = (arr) => {
+export const quickSort = (arr) => {
   const unsorted = arr;
 
-  if (unsorted.length < 1) {
+  if (unsorted.length <= 1) {
     return unsorted;
   }
 
-  const pivot = unsorted[unsorted - 1];
+  const pivot = unsorted[unsorted.length - 1];
   const left = [];
   const right = [];
 
@@ -17,5 +17,5 @@ const quickSort = (arr) => {
     }
   }
 
-  return [...quickSort(left), pivot, ...quickSort(right)];
+  return quickSort(left).concat(pivot, quickSort(right));
 };
