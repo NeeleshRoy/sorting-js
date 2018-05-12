@@ -3,7 +3,7 @@ import bubbleSort from './bubble-sort/index';
 import insertionSort from './insertion-sort/index';
 import selectionSort from './selection-sort/index';
 import { mergeSort } from './merge-sort/index';
-
+import { quickSort } from './quick-sort/index';
 
 module.exports = {
   ArrayTestBed,
@@ -11,4 +11,5 @@ module.exports = {
   insertionSort,
   selectionSort,
   mergeSort,
+  quickSort,
 };
