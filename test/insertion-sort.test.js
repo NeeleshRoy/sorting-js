@@ -8,16 +8,16 @@
  */
 
 import { expect } from 'chai';
-import bubbleSort from '../src/bubble-sort';
+import insertionSort from '../src/insertion-sort';
 
-describe('Bubble Sort', () => {
+describe('Insertion Sort', () => {
 
-  describe('BubbleSort - function', () => {
+  describe('Insertion - function', () => {
 
     it('should return empty array', () => {
       const test = [];
 
-      const out = bubbleSort(test);
+      const out = insertionSort(test);
 
       expect(out).to.eql([]);
     });
@@ -25,18 +25,9 @@ describe('Bubble Sort', () => {
     it('should sort the elements in ascending order', () => {
       const test = [2, 5, 4, 10, 5, 3, 2, 7];
 
-      const out = bubbleSort(test, 'a');
+      const out = insertionSort(test, 'a');
 
       expect(out).to.eql([2, 2, 3, 4, 5, 5, 7, 10]);
     });
-
-    it('should sort the elements in ascending order', () => {
-      const test = [2, 5, 4, 10, 5, 3, 2, 7];
-
-      const out = bubbleSort(test, 'd');
-
-      expect(out).to.eql([10, 7, 5, 5, 4, 3, 2, 2]);
-    });
-
   });
 });
