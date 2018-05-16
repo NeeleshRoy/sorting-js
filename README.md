@@ -42,6 +42,14 @@ eg:
   test.setData(false) // [5, 6, 6, 8, 3, 2, 2]
   test.setData() // [1, 7, 6, 8, 3, 2, 5]
 ```
+### List of sorting algorithms
+* Bubble sort
+* Counting sort
+* Insertion sort
+* merge sort
+* quick sort
+* selection sort
+
 
 ## For Geeks :P
 ### How to Test
