@@ -8,26 +8,24 @@
  */
 
 import { expect } from 'chai';
-import insertionSort from '../src/insertion-sort';
+import { insertionSort } from '../src/insertion-sort';
 
 describe('Insertion Sort', () => {
+	describe('Insertion - function', () => {
+		it('should return empty array', () => {
+			const test = [];
 
-  describe('Insertion - function', () => {
+			const out = insertionSort(test);
 
-    it('should return empty array', () => {
-      const test = [];
+			expect(out).to.eql([]);
+		});
 
-      const out = insertionSort(test);
+		it('should sort the elements in ascending order', () => {
+			const test = [ 2, 5, 4, 10, 5, 3, 2, 7 ];
 
-      expect(out).to.eql([]);
-    });
+			const out = insertionSort(test, 'a');
 
-    it('should sort the elements in ascending order', () => {
-      const test = [2, 5, 4, 10, 5, 3, 2, 7];
-
-      const out = insertionSort(test, 'a');
-
-      expect(out).to.eql([2, 2, 3, 4, 5, 5, 7, 10]);
-    });
-  });
+			expect(out).to.eql([ 2, 2, 3, 4, 5, 5, 7, 10 ]);
+		});
+	});
 });

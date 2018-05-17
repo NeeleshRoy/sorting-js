@@ -9,8 +9,13 @@
 	"main": "index.js",
 	"jsnext:main": "index.es6.js",
 	"babel": {
-		"presets": [ "es2015", "stage-0" ],
-		"plugins": [ "transform-runtime" ]
+		"presets": [
+			"es2015",
+			"stage-0"
+		],
+		"plugins": [
+			"transform-runtime"
+		]
 	},
 	"eslintConfig": {
 		"parser": "babel-eslint"
