@@ -17,3 +17,5 @@ deploy:
     tags: true
     repo: NeeleshRoy/sorting-js
     branch: develop
+after_deploy:
+- npm version patch

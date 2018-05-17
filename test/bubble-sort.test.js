@@ -8,35 +8,32 @@
  */
 
 import { expect } from 'chai';
-import bubbleSort from '../src/bubble-sort';
+import { bubbleSort } from '../src/bubble-sort';
 
 describe('Bubble Sort', () => {
+	describe('BubbleSort - function', () => {
+		it('should return empty array', () => {
+			const test = [];
 
-  describe('BubbleSort - function', () => {
+			const out = bubbleSort(test);
 
-    it('should return empty array', () => {
-      const test = [];
+			expect(out).to.eql([]);
+		});
 
-      const out = bubbleSort(test);
+		it('should sort the elements in ascending order', () => {
+			const test = [ 2, 5, 4, 10, 5, 3, 2, 7 ];
 
-      expect(out).to.eql([]);
-    });
+			const out = bubbleSort(test, 'a');
 
-    it('should sort the elements in ascending order', () => {
-      const test = [2, 5, 4, 10, 5, 3, 2, 7];
+			expect(out).to.eql([ 2, 2, 3, 4, 5, 5, 7, 10 ]);
+		});
 
-      const out = bubbleSort(test, 'a');
+		it('should sort the elements in ascending order', () => {
+			const test = [ 2, 5, 4, 10, 5, 3, 2, 7 ];
 
-      expect(out).to.eql([2, 2, 3, 4, 5, 5, 7, 10]);
-    });
+			const out = bubbleSort(test, 'd');
 
-    it('should sort the elements in ascending order', () => {
-      const test = [2, 5, 4, 10, 5, 3, 2, 7];
-
-      const out = bubbleSort(test, 'd');
-
-      expect(out).to.eql([10, 7, 5, 5, 4, 3, 2, 2]);
-    });
-
-  });
+			expect(out).to.eql([ 10, 7, 5, 5, 4, 3, 2, 2 ]);
+		});
+	});
 });
